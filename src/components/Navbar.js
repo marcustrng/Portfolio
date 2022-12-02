@@ -4,14 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
-import {CgGitFork, CgFileDocument} from "react-icons/cg";
-import {ImBlog} from "react-icons/im";
-import {
-    AiFillStar,
-    AiOutlineHome,
-    AiOutlineFundProjectionScreen,
-    AiOutlineUser,
-} from "react-icons/ai";
+import {CgFileDocument, CgGitFork} from "react-icons/cg";
+import {AiFillStar, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
@@ -36,7 +30,7 @@ function NavBar() {
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex main-name" style={{color: "red !important"}}>
-                    <strong className="main-name"> MARCUS </strong>
+                    <strong className="main-name"> TuTQQ </strong>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -89,19 +83,9 @@ function NavBar() {
                             </Nav.Link>
                         </Nav.Item>
 
-                        <Nav.Item>
-                            <Nav.Link
-                                href="https://blogs.soumya-jit.tech/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <ImBlog style={{marginBottom: "2px"}}/> Blogs
-                            </Nav.Link>
-                        </Nav.Item>
-
                         <Nav.Item className="fork-btn">
                             <Button
-                                href="https://github.com/soumyajit4419/Portfolio"
+                                href="https://github.com/tutqq1803/portfolio"
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
