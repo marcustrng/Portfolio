@@ -1,33 +1,31 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+    SiLinux,
+    SiPostman,
+    SiIntellijidea, SiSwagger, SiDocker,
 } from "react-icons/si";
 
 function Toolstack() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-    </Row>
-  );
+    return (
+        <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiIntellijidea/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiPostman/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiSwagger/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiDocker/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiLinux/>
+            </Col>
+        </Row>
+    );
 }
 
 export default Toolstack;
