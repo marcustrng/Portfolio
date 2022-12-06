@@ -1,10 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillFacebook,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {Col, Container, Row} from "react-bootstrap";
+import {AiFillFacebook, AiFillGithub,} from "react-icons/ai";
+import {FaLinkedinIn} from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -16,7 +13,7 @@ function Footer() {
           <h3>Designed and Developed by Marcus Truong</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} TuTQQ</h3>
+          <h3>Copyright © {year} Marcus Truong</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

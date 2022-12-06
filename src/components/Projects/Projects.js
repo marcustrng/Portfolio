@@ -24,7 +24,7 @@ function Projects() {
               title="Portfolio"
               description="Personal Portfolio build with react.js, Material-UI."
               ghLink="https://github.com/tutqq1803/portfolio"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://portfolio-one-livid-26.vercel.app/"
             />
           </Col>
 
@@ -33,9 +33,8 @@ function Projects() {
               imgPath={bestPractice}
               isBlog={false}
               title="Best Practices"
-              description="My personal best practices project build with Java, SpringBoot, Redis, Keycloak, MySQL, MongoDB and ReactJS."
+              description="My personal best practices project build with Java, SpringBoot, Redis, Keycloak, MySQL, MongoDB, and ReactJS."
               ghLink="https://github.com/tutqq1803/best-practice"
-              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
         </Row>

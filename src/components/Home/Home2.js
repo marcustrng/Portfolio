@@ -1,12 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import myImg from "../../Assets/avt.jpeg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillFacebook,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {AiFillFacebook, AiFillGithub,} from "react-icons/ai";
+import {FaLinkedinIn} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -23,21 +20,21 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java. </b>
+                <b className="purple"> Java And Javascript. </b>
               </i>
               <br />
               <br />
 
               Skilled in
               <i>
-                <b className="purple"> PostgreSQL, MySQL, MongoDB, Redis, Tomcat Apache, Jboss, Javascript and more. </b>
+                <b className="purple"> Postgresql, MySQL, MongoDB, Redis, Hibernate, React and more. </b>
               </i>
               <br />
               <br />
 
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple"> Web Technologies and Products </b>
               </i>
               <br />
               <br />
@@ -51,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Spring boot and Hibernate </b>
+                <b className="purple"> Spring boot and Apache Struts </b>
               </i>
             </p>
           </Col>

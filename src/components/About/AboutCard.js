@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import {ImPointRight} from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Marcus Truong </span>
-            from <span className="purple"> Ho Chi Minh city, Vietnam.</span>
+            Hi Everyone, I am <span className="purple">Trương Quang Quốc Tự </span>
+            you can call me <span className="purple">Marcus </span> from <span className="purple"> Ho Chi Minh city, Vietnam.</span>
             <br />I am a senior software engineer in FPT Software.
             <br />
             <br />
@@ -17,10 +17,10 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Coding
+              <ImPointRight /> Reading books
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Tech Blogs
+              <ImPointRight /> Learning new skills
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "When you can complete it alone, you become a very powerful person!"{" "}
           </p>
-          <footer className="blockquote-footer">Marcus</footer>
+          <footer className="blockquote-footer">Marcus Truong</footer>
         </blockquote>
       </Card.Body>
     </Card>
