@@ -30,7 +30,7 @@ function NavBar() {
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex main-name" style={{color: "red !important"}}>
-                    <strong className="main-name"> TuTQQ </strong>
+                    <strong className="main-name"> Marcus </strong>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
