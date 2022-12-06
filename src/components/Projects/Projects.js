@@ -24,7 +24,7 @@ function Projects() {
               title="Portfolio"
               description="Personal Portfolio build with react.js, Material-UI."
               ghLink="https://github.com/tutqq1803/portfolio"
-              demoLink="https://portfolio-one-livid-26.vercel.app/"
+              demoLink="https://tutqq-portfolio.vercel.app"
             />
           </Col>
 
