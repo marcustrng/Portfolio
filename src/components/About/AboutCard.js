@@ -8,9 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Trương Quang Quốc Tự </span>
-            you can call me <span className="purple">Marcus </span> from <span className="purple"> Ho Chi Minh city, Vietnam.</span>
-            <br />I am a senior software engineer in FPT Software.
+            Hi Everyone, I am <span className="purple">Marcus Tự Trương </span>
+            from <span className="purple"> Ho Chi Minh city, Vietnam</span>
+            <br />I am a <span className="purple">senior software engineer</span> in<span className="purple"> FPT Software Ltd.</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
