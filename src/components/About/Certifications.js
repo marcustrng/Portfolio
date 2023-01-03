@@ -4,6 +4,7 @@ import CertificationCards from "../About/CertificationCards";
 import CloudApplicationDevelopmentFoundations
     from "../../Assets/Certifications/CloudApplicationDevelopmentFoundations.png";
 import IBMFullStackSoftwareDeveloper from "../../Assets/Certifications/IBMFullStackSoftwareDeveloper.png";
+import IBMDevOpsAndSoftwareEngineering from "../../Assets/Certifications/IBMDevOpsandSoftwareEngineering.png";
 
 function Certifications() {
     return (
@@ -23,6 +24,15 @@ function Certifications() {
                     isBlog={false}
                     title="Cloud Application Development Foundations Specialization"
                     ghLink="https://www.coursera.org/account/accomplishments/specialization/certificate/4PJNMAHZM55S"
+                />
+            </Col>
+
+            <Col md={4} className="project-card">
+                <CertificationCards
+                    imgPath={IBMDevOpsAndSoftwareEngineering}
+                    isBlog={false}
+                    title="IBM DevOps and Software Engineering Specialization"
+                    ghLink="https://www.coursera.org/account/accomplishments/specialization/certificate/LSA8Y5HZHPUU"
                 />
             </Col>
         </Row>
