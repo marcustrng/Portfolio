@@ -23,7 +23,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="Personal Portfolio build with react.js, Material-UI."
-              ghLink="https://github.com/tutqq1803/portfolio"
+              ghLink="https://github.com/marcustrng/portfolio"
               demoLink="https://tutqq-portfolio.vercel.app"
             />
           </Col>
@@ -34,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="Best Practices"
               description="My personal best practices project build with Java, SpringBoot, Redis, Keycloak, MySQL, MongoDB, and ReactJS."
-              ghLink="https://github.com/tutqq1803/best-practice"
+              ghLink="https://github.com/marcustrng/best-practice"
             />
           </Col>
         </Row>
