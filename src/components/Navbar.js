@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
 import {CgFileDocument, CgGitFork} from "react-icons/cg";
 import {AiFillStar, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
+import { ImBlog } from "react-icons/im";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
@@ -82,6 +83,17 @@ function NavBar() {
                                 <CgFileDocument style={{marginBottom: "2px"}}/> Resume
                             </Nav.Link>
                         </Nav.Item>
+
+                        <Nav.Item>
+                            <Nav.Link
+                              href="https://viblo.asia/u/tutqq"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                            </Nav.Link>
+                        </Nav.Item>
+
 
                         <Nav.Item className="fork-btn">
                             <Button
