@@ -2,9 +2,9 @@ import React from "react";
 import {Col, Row} from "react-bootstrap";
 import CertificationCards from "../About/CertificationCards";
 import CloudApplicationDevelopmentFoundations
-    from "../../Assets/Certifications/CloudApplicationDevelopmentFoundations.png";
-import IBMFullStackSoftwareDeveloper from "../../Assets/Certifications/IBMFullStackSoftwareDeveloper.png";
-import IBMDevOpsAndSoftwareEngineering from "../../Assets/Certifications/IBMDevOpsandSoftwareEngineering.png";
+    from "../../Assets/Certificate/CloudApplicationDevelopmentFoundations.png";
+import IBMFullStackSoftwareDeveloper from "../../Assets/Certificate/IBMFullStackSoftwareDeveloper.png";
+import IBMDevOpsAndSoftwareEngineering from "../../Assets/Certificate/IBMDevOpsandSoftwareEngineering.png";
 
 function Certifications() {
     return (
